@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+        <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/icon" href="logo/favicon.png"/>
+    <style>
+    .wow:first-child {
+      visibility: hidden;
+    }
+  </style>
+
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top pt-2" id="navbar-example2">
+      <div class="container ps-lg-5">
+        <a class="navbar-brand ms-3 ms-lg-5 mb-lg-3" href="#">
+          sine<span>mkt</span>.
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="col-lg-8 navbar-nav mx-auto mb-2 mb-lg-0 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#new-arrivals">new arrival</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#feature">features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#blog">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#newsletter">Contact</a>
+            </li>
+          </ul>
+          <div class="col-lg-1 search ps-3 pe-3 d-none d-lg-block text-end">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="col-lg-1 setting ps-3 pe-3 d-none d-lg-block " style="width:fit-content">
+            <i class="fa-solid fa-gear"></i>
+          </div>
+          <div class="col-lg-2 shopping ps-3 pe-3 d-none d-lg-block">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <!-- <a class="btn rounded-pill py-2 px-3   font-monospace main-btn" href="#">Login</a>  rounded-pill => بتعمل شكل دائري للزرار -->
+        </div>
+      </div>
+    </nav>
+    <!-- ------------------------------------  data-bs-ride="carousel" -->
+    <!--/.welcome-hero-->
+		<!--welcome-hero end -->
+    <div id="carouselExampleCaptions" class="carousel slide pb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" style="background-color:#e99c2e" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" style="background-color:#e99c2e" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" style="background-color:#e99c2e" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner py-lg-5">
+            <div class="carousel-item active">
+                <div class="container">
+					<div class="welcome-hero-content">
+						<div class="row">
+							<div class=" col-md-6 col-lg-7 pt-4 mt-4">
+								<div class="single-welcome-hero">
+									<div class="welcome-hero-txt p-sm-2 p-lg-4 ps-lg-5">
+										<h4>great design collection</h4>
+                                        <h2>cloth covered accent chair</h2>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiuiana smod tempor  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
+                                        </p>
+                                        <div class="packages-price">
+                                            <p>
+                                                $ 399.00
+                                                <del>$ 499.00</del>
+                                            </p>
+                                        </div>
+                                        <button class="btn-cart welcome-add-cart   ms-4 fs-5 p-3 px-5"  onclick="window.location.href='#'">
+                                            <span class="lnr lnr-plus-circle"></span>
+                                            add <span>to</span> cart
+                                        </button>
+                                        <button class="btn-cart welcome-add-cart welcome-more-info ms-3 fs-5 p-3 px-5" onclick="window.location.href='#'">
+                                            more info
+                                        </button>
+									</div><!--/.welcome-hero-txt-->
+								</div><!--/.single-welcome-hero-->
+							</div><!--/.col-->
+							<div class=" col-8 col-md-6 col-lg-5">
+                                <div class="single-welcome-hero">
+                                    <div class="welcome-hero-img">
+                                        <img src="images/slider/slider1.png" alt="slider image">
+                                    </div><!--/.welcome-hero-txt-->
+                                </div><!--/.single-welcome-hero-->
+                            </div><!--/.col-->
+                        </div><!--/.row-->
+					</div><!--/.welcome-hero-content-->
+				</div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+					<div class="welcome-hero-content">
+						<div class="row">
+							<div class="col-md-6 col-lg-7 pt-4 mt-4">
+								<div class="single-welcome-hero">
+									<div class="welcome-hero-txt p-sm-2 p-lg-4 ps-lg-5">
+										<h4>great design collection</h4>
+                                        <h2>mapple wood accent chair</h2>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiuiana smod tempor  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
+                                        </p>
+                                        <div class="packages-price">
+                                            <p>
+                                                $ 199.00
+                                                <del>$ 299.00</del>
+											</p>
+                                        </div>
+                                        <button class="btn-cart welcome-add-cart   ms-4 fs-5 p-3 px-5"  onclick="window.location.href='#'">
+                                            <span class="lnr lnr-plus-circle"></span>
+                                            add <span>to</span> cart
+                                        </button>
+                                        <button class="btn-cart welcome-add-cart welcome-more-info ms-3 fs-5 p-3 px-5" onclick="window.location.href='#'">
+                                            more info
+                                        </button>
+									</div>
+								</div>
+							</div>
+							<div class="col-8 col-md-6 col-lg-5">
+                                <div class="single-welcome-hero">
+                                    <div class="welcome-hero-img">
+                                        <img src="images/slider/slider2.png" alt="slider image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+					<div class="welcome-hero-content">
+						<div class="row">
+							<div class="col-md-6 col-lg-7 pt-4 mt-4">
+								<div class="single-welcome-hero">
+									<div class="welcome-hero-txt p-sm-2 p-lg-4 ps-lg-5">
+										<h4>great design collection</h4>
+                                        <h2>valvet accent arm chair</h2>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiuiana smod tempor  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
+                                        </p>
+                                        <div class="packages-price">
+                                            <p>
+                                                $ 299.00
+                                                <del>$ 399.00</del>
+                                            </p>
+                                        </div>
+                                        <button class="btn-cart welcome-add-cart   ms-4 fs-5 p-3 px-5"  onclick="window.location.href='#'">
+                                            <span class="lnr lnr-plus-circle"></span>
+                                            add <span>to</span> cart
+                                        </button>
+                                        <button class="btn-cart welcome-add-cart welcome-more-info ms-3 fs-5 p-3 px-5" onclick="window.location.href='#'">
+                                            more info
+                                        </button>
+									</div>
+								</div>
+							</div>
+							<div class="col-8 col-md-6 col-lg-5">
+                                <div class="single-welcome-hero">
+                                    <div class="welcome-hero-img">
+                                        <img src="images/slider/slider3.png" alt="slider image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>		
+                    </div>
+				</div>
+            </div>
+        </div>
+
+    </div>
+    <!-- =============================================================== -->
+
+      <!-- ------------------------------------------- -->
+      <div class="cards py-5">
+        <div class="container  px-md-0 py-5 ps-lg-5">
+            <div class="row ps-md-0  ps-lg-5">
+              <div class="col-md-5 col-lg-3 ">
+                  <div class="card ml-xs-1 ms-md-0 wow bounceInUp" data-wow-delay="0s">
+                    <img src="images/populer-products/p1.png" class="card-img-top w-75 m-auto py-4" alt="...">
+                    <div class="card-body px-2">
+                      <h5 class="card-title text-center text-decoration-none mb-3"><a href="#" class="text-decoration-none">arm chair</a></h5>
+                      <p class="card-text text-center lh-lg mb-3">Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut fugit.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="card mb-3 col-md-5 wow bounceInUp" style="max-width: 540px;margin-left:-22px;margin-right:4px" data-wow-delay="0.4s">
+                <div class="row g-0" style="padding-top:2.5rem">
+                  <div class="col-md-4">
+                    <img src="images/populer-products/p2.png" class="img-fluid rounded-start mt-5" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Latest Designed Stool and Chair</h5>
+                      <p class="card-text">Edi Ut Perspiciatis Unde Omnis Iste Natusina Error Sit Voluptatem Accusantium Doloret Mque Laudantium, Totam Rem Aperiam.</p>
+                      <p class="card-text"><small class="text-muted">Sales Start from $99.00</small></p>
+                      <button class="btn-cart welcome-add-cart welcome-more-info  fs-5 p-2 px-3" onclick="window.location.href='#'">
+                                         discover   more 
+                        </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 third">
+                <div class="card wow bounceInUp" data-wow-delay="0.8s">
+                  <img src="images/populer-products/p3.png" class="card-img-top w-50 m-auto py-4" alt="...">
+                  <div class="card-body px-2">
+                    <h5 class="card-title text-center text-decoration-none mb-3"><a href="#" class="text-decoration-none">arm chair</a></h5>
+                    <p class="card-text text-center lh-lg mb-3">Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut fugit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------- -->
+        <section id="new-arrivals" class="new-arrivals pb-5">
+          <div class="container py-4   ps-lg-5">
+            <div class="section-header mb-5 text-center text-capitalize">
+              <h2>new arrivals</h2>
+            </div><!--/.section-header-->
+				    <div class="new-arrivals-content">
+              <div class="row ps-md-0  ps-lg-3 ps-xl-5 justify-content-around" style="gap:7rem 0px">
+                <div class=" col-md-4 col-xl-3 col-sm-6" style="height:358px">
+                  <div class="single-new-arrival wow bounceInUp " style="height:358px" data-wow-delay="0s">
+                    <div class="single-new-arrival-bg">
+                      <img src="images/collection/arrivals1.png" class="card-img-top w-50  py-5 ms-4"  alt="new-arrivals images">
+                      <div class="single-new-arrival-bg-overlay"></div>
+                      <div class="sale bg-1   position-absolute text-center text-capitalize" style="width: 35%;margin-top: -242px;margin-left: 11.7rem;">
+                        <p style="font-size: 18px; background-color:#bd8436; color:white;">sale</p>
+                      </div>
+                      <div class="new-arrival-cart">
+                        <p>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <a href="#">add <span>to </span> cart</a>
+                        </p>
+                        <p class="arrival-review pull-right">
+                          <span class="lnr lnr-heart"></span>
+                          <span class="lnr lnr-frame-expand"></span>
+                        </p>
+                      </div>
+                    </div>
+                    <h4 class="text-center pt-3"><a href="#" class=" text-decoration-none">wooden chair</a></h4>
+                    <p class="arrival-product-price text-center">$65.00</p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6" style="height:358px">
+                  <div class="single-new-arrival wow bounceInUp" style="height:358px"data-wow-delay="0.2s">
+                    <div class="single-new-arrival-bg">
+                      <img src="images/collection/arrivals2.png" class="card-img-top w-50  py-5 ms-4"  alt="new-arrivals images">
+                      <div class="single-new-arrival-bg-overlay"></div>
+                      <div class="sale bg-1   position-absolute text-center text-capitalize" style="width: 35%;margin-top: -242px;margin-left: 11.7rem;">
+                        <p style="font-size: 18px; background-color:rgb(10, 189, 10); color:white;">sale</p>
+                      </div>
+                      <div class="new-arrival-cart">
+                        <p>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <a href="#">add <span>to </span> cart</a>
+                        </p>
+                        <p class="arrival-review pull-right">
+                          <span class="lnr lnr-heart"></span>
+                          <span class="lnr lnr-frame-expand"></span>
+                        </p>
+                      </div>
+                    </div>
+                    <h4 class="text-center pt-3"><a href="#" class=" text-decoration-none">single armchair</a></h4>
+                    <p class="arrival-product-price text-center">$85.00</p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6" style="height:358px">
+                  <div class="single-new-arrival wow bounceInUp" style="height:358px" data-wow-delay="0.4s">
+                    <div class="single-new-arrival-bg">
+                      <img src="images/collection/arrivals3.png" class="card-img-top w-50  py-5 ms-4"  alt="new-arrivals images">
+                      <div class="single-new-arrival-bg-overlay"></div>
+                      <div class="new-arrival-cart">
+                        <p>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <a href="#">add <span>to </span> cart</a>
+                        </p>
+                        <p class="arrival-review pull-right">
+                          <span class="lnr lnr-heart"></span>
+                          <span class="lnr lnr-frame-expand"></span>
+                        </p>
+                      </div>
+                    </div>
+                    <h4 class="text-center pt-3"><a href="#" class=" text-decoration-none">wooden armchair</a></h4>
+                    <p class="arrival-product-price text-center">$45.00</p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6" style="height:358px">
+                  <div class="single-new-arrival wow bounceInUp" style="height:358px" data-wow-delay="0.6s">
+                    <div class="single-new-arrival-bg">
+                      <img src="images/collection/arrivals4.png" class="card-img-top w-50  py-5 ms-4"  alt="new-arrivals images">
+                      <div class="single-new-arrival-bg-overlay"></div>
+                      <div class="sale bg-1   position-absolute text-center text-capitalize" style="width: 35%;margin-top: -242px;margin-left: 11.7rem;">
+                        <p style="font-size: 18px; background-color:#bd8436; color:white;">sale</p>
+                      </div>
+                      <div class="new-arrival-cart">
+                        <p>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <a href="#">add <span>to </span> cart</a>
+                        </p>
+                        <p class="arrival-review pull-right">
+                          <span class="lnr lnr-heart"></span>
+                          <span class="lnr lnr-frame-expand"></span>
+                        </p>
+                      </div>
+                    </div>
+                    <h4 class="text-center pt-3"><a href="#" class=" text-decoration-none">stylish chair</a></h4>
+                    <p class="arrival-product-price text-center">$105.00</p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6" style="height:358px">
+                  <div class="single-new-arrival wow bounceInUp" style="height:358px">
+                    <div class="single-new-arrival-bg">
+                      <img src="images/collection/arrivals5.png" class="card-img-top w-50  py-5 ms-4"  alt="new-arrivals images">
+                      <div class="single-new-arrival-bg-overlay"></div>
+                      <div class="new-arrival-cart">
+                        <p>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <a href="#">add <span>to </span> cart</a>
+                        </p>
+                        <p class="arrival-review pull-right">
+                          <span class="lnr lnr-heart"></span>
+                          <span class="lnr lnr-frame-expand"></span>
+                        </p>
+                      </div>
+                    </div>
+                    <h4 class="text-center pt-3"><a href="#" class=" text-decoration-none">modern chair</a></h4>
+                    <p class="arrival-product-price text-center">$165.00</p>
+                  </div>
+                </div>
+               <div class="col-md-4 col-xl-3 col-sm-6" style="height:358px">
+                  <div class="single-new-arrival wow bounceInUp" style="height:358px" data-wow-delay="0.s">
+                    <div class="single-new-arrival-bg">
+                      <img src="images/collection/arrivals6.png" class="card-img-top w-50  py-5 ms-4"  alt="new-arrivals images">
+                      <div class="single-new-arrival-bg-overlay"></div>
+                      <div class="sale bg-1   position-absolute text-center text-capitalize" style="width: 35%;margin-top: -242px;margin-left: 11.7rem;">
+                        <p style="font-size: 18px; background-color:#bd8436; color:white;">sale</p>
+                      </div>
+                      <div class="new-arrival-cart">
+                        <p>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <a href="#">add <span>to </span> cart</a>
+                        </p>
+                        <p class="arrival-review pull-right">
+                          <span class="lnr lnr-heart"></span>
+                          <span class="lnr lnr-frame-expand"></span>
+                        </p>
+                      </div>
+                    </div>
+                    <h4 class="text-center pt-3"><a href="#" class=" text-decoration-none">Mapple Wood Dinning Table</a></h4>
+                    <p class="arrival-product-price text-center">$155.00</p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6" style="height:358px">
+                  <div class="single-new-arrival wow bounceInUp" style="height:358px" data-wow-delay="0.4s">
+                    <div class="single-new-arrival-bg">
+                      <img src="images/collection/arrivals7.png" class="card-img-top w-50  py-5 ms-4"  alt="new-arrivals images">
+                      <div class="single-new-arrival-bg-overlay"></div>
+                      <div class="sale bg-1   position-absolute text-center text-capitalize" style="width: 35%;margin-top: -242px;margin-left: 11.7rem;">
+                        <p style="font-size: 18px; background-color:rgb(10, 189, 10); color:white;">sale</p>
+                      </div>
+                      <div class="new-arrival-cart">
+                        <p>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <a href="#">add <span>to </span> cart</a>
+                        </p>
+                        <p class="arrival-review pull-right">
+                          <span class="lnr lnr-heart"></span>
+                          <span class="lnr lnr-frame-expand"></span>
+                        </p>
+                      </div>
+                    </div>
+                    <h4 class="text-center pt-3"><a href="#" class=" text-decoration-none">arm chair</a></h4>
+                    <p class="arrival-product-price text-center">$95.00</p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6" style="height:358px">
+                  <div class="single-new-arrival wow bounceInUp" style="height:358px" data-wow-delay="0.4s">
+                    <div class="single-new-arrival-bg">
+                      <img src="images/collection/arrivals8.png" class="card-img-top w-50  py-5 ms-4"  alt="new-arrivals images">
+                      <div class="single-new-arrival-bg-overlay"></div>
+                      <div class="new-arrival-cart">
+                        <p>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <a href="#">add <span>to </span> cart</a>
+                        </p>
+                        <p class="arrival-review pull-right">
+                          <span class="lnr lnr-heart"></span>
+                          <span class="lnr lnr-frame-expand"></span>
+                        </p>
+                      </div>
+                    </div>
+                    <h4 class="text-center pt-3"><a href="#" class=" text-decoration-none">Wooden Bed</a></h4>
+                    <p class="arrival-product-price text-center">$140.00</p>
+                  </div>
+                </div>
+              </div>
+				    </div>
+			    </div>
+	      </section>
+
+<!-- ============================================== -->    
+<div id="carouselExampleFade" class="carousel slide carousel-fade pt-0 mb-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active wow bounceInLeft">
+      <div class="sofa-collection collectionbg1">
+					<div class="container">
+						<div class="sofa-collection-txt">
+							<h2>unlimited sofa collection</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+							</p>
+							<div class="sofa-collection-price">
+								<h4>strting from <span>$ 199</span></h4>
+							</div>
+							<button class="btn-cart welcome-add-cart sofa-collection-btn" onclick="window.location.href='#'">
+								view more
+							</button>
+						</div>
+					</div>	
+				</div>
+    </div>
+    <div class="carousel-item wow bounceInRight">
+      <div class="sofa-collection collectionbg2">
+					<div class="container">
+						<div class="sofa-collection-txt">
+							<h2>unlimited dainning table collection</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+							</p>
+							<div class="sofa-collection-price">
+								<h4>strting from <span>$ 299</span></h4>
+							</div>
+							<button class="btn-cart welcome-add-cart sofa-collection-btn" onclick="window.location.href='#'">
+								view more
+							</button>
+						</div>
+					</div>
+				</div>
+    </div>
+  </div>
+</div>
+<!-- ================================== -->
+<section id="feature" class="feature">
+			<div class="container py-4" style="max-width:1190px">
+				<div class="section-header text-center my-5">
+					<h2>featured products</h2>
+				</div><!--/.section-header-->
+				<div class="feature-content mt-5">
+					<div class="row">
+						<div class="col-sm-3 col-xl-3">
+							<div class="single-feature wow bounceInUp" data-wow-delay="0s">
+								<img src="images/features/f1.jpg" alt="feature image">
+								<div class="single-feature-txt text-center mt-4">
+									<p>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<span class="spacial-feature-icon"><i class="fa fa-star"></i></span>
+										<span class="feature-review">(45 review)</span>
+									</p>
+									<h3><a href="#" class="text-decoration-none">designed sofa</a></h3>
+									<h5>$160.00</h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xl-3">
+							<div class="single-feature wow bounceInUp" data-wow-delay="0.4s">
+								<img src="images/features/f2.jpg" alt="feature image">
+								<div class="single-feature-txt text-center mt-4">
+									<p>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<span class="spacial-feature-icon"><i class="fa fa-star"></i></span>
+										<span class="feature-review">(45 review)</span>
+									</p>
+									<h3><a href="#" class="text-decoration-none">dinning table </a></h3>
+									<h5>$200.00</h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xl-3">
+							<div class="single-feature wow bounceInUp" data-wow-delay="0.6s">
+								<img src="images/features/f3.jpg" alt="feature image">
+								<div class="single-feature-txt text-center mt-4">
+									<p>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<span class="spacial-feature-icon"><i class="fa fa-star"></i></span>
+										<span class="feature-review">(45 review)</span>
+									</p>
+									<h3><a href="#" class="text-decoration-none">chair and table</a></h3>
+									<h5>$100.00</h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xl-3">
+							<div class="single-feature wow bounceInUp" data-wow-delay="0.8s">
+								<img src="images/features/f4.jpg" alt="feature image">
+								<div class="single-feature-txt text-center mt-4">
+									<p>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<span class="spacial-feature-icon"><i class="fa fa-star"></i></span>
+										<span class="feature-review">(45 review)</span>
+									</p>
+									<h3><a href="#" class="text-decoration-none">modern arm chair</a></h3>
+									<h5>$299.00</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+
+		</section>
+<!-- =================================== -->
+<section id="blog" class="blog">
+			<div class="container py-4">
+				<div class="section-header text-center my-5">
+					<h2>latest blog</h2>
+				</div><!--/.section-header-->
+				<div class="blog-content">
+					<div class="row justify-content-around">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog wow bounceInDown" data-wow-delay="0s">
+								<div class="single-blog-img">
+									<img src="images/blog/b1.jpg" alt="blog image">
+									<div class="single-blog-img-overlay"></div>
+								</div>
+								<div class="single-blog-txt mt-3">
+									<h2><a href="#" class="text-decoration-none fs-4">Why Brands are Looking at Local Language</a></h2>
+									<h3>By <a href="#"  class="text-decoration-none">Robert Norby</a> / 18th March 2018</h3>
+									<p>
+										Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.... 
+									</p>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog wow bounceInDown" data-wow-delay="0.3s">
+								<div class="single-blog-img">
+									<img src="images/blog/b2.jpg" alt="blog image">
+									<div class="single-blog-img-overlay"></div>
+								</div>
+								<div class="single-blog-txt mt-3">
+									<h2><a href="#" class="text-decoration-none fs-4">Why Brands are Looking at Local Language</a></h2>
+									<h3>By <a href="#" class="text-decoration-none">Robert Norby</a> / 18th March 2018</h3>
+									<p>
+										Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.... 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog wow bounceInDown" data-wow-delay="0.6s">
+								<div class="single-blog-img">
+									<img src="images/blog/b3.jpg" alt="blog image">
+									<div class="single-blog-img-overlay"></div>
+								</div>
+								<div class="single-blog-txt mt-3">
+									<h2><a href="#" class="text-decoration-none fs-4">Why Brands are Looking at Local Language</a></h2>
+									<h3>By <a href="#" class="text-decoration-none">Robert Norby</a> / 18th March 2018</h3>
+									<p>
+										Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.... 
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+			
+		</section>
+    <!-- ===================================== -->
+    <section id="clients"  class="clients">
+			<div class="container">
+        <div class="logos">
+      <div class="logos-slide">
+        <img src="images/clients/c1.png" />
+        <img src="images/clients/c2.png" />
+        <img src="images/clients/c3.png" />
+        <img src="images/clients/c4.png" />
+        <img src="images/clients/c5.png" />
+      </div>
+    </div>
+      </div>
+		</section>
+    <!-- ====================================================== -->
+     <section id="newsletter"  class="newsletter py-5 mt-5">
+			<div class="container py-2">
+				<div class="hm-footer-details">
+					<div class="row">
+						<div class=" col-md-3 col-sm-6 col-xs-12">
+							<div class="hm-footer-widget">
+								<div class="hm-foot-title">
+									<h4>information</h4>
+								</div>
+								<div class="hm-foot-menu">
+									<ul class="list-unstyled">
+										<li><a href="#">about us</a></li>
+										<li><a href="#">contact us</a></li>
+										<li><a href="#">news</a></li>
+										<li><a href="#">store</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class=" col-md-3 col-sm-6 col-xs-12">
+							<div class="hm-footer-widget">
+								<div class="hm-foot-title">
+									<h4>collections</h4>
+								</div>
+								<div class="hm-foot-menu">
+									<ul class="list-unstyled">
+										<li><a href="#">wooden chair</a></li>
+										<li><a href="#">royal cloth sofa</a></li>
+										<li><a href="#">accent chair</a></li>
+										<li><a href="#">bed</a></li>
+										<li><a href="#">hanging lamp</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class=" col-md-3 col-sm-6 col-xs-12">
+							<div class="hm-footer-widget">
+								<div class="hm-foot-title">
+									<h4>my accounts</h4>
+								</div>
+								<div class="hm-foot-menu">
+									<ul class="list-unstyled">
+										<li><a href="#">my account</a></li>
+										<li><a href="#">wishlist</a></li>
+										<li><a href="#">Community</a></li>
+										<li><a href="#">order history</a></li>
+										<li><a href="#">my cart</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class=" col-md-3 col-sm-6  col-xs-12">
+							<div class="hm-footer-widget">
+								<div class="hm-foot-title">
+									<h4>newsletter</h4>
+								</div>
+								<div class="hm-foot-para">
+									<p>
+										Subscribe  to get latest news,update and information.
+									</p>
+								</div>
+								<div class="hm-foot-email">
+									<div class="foot-email-box">
+										<input type="text" class="form-control" placeholder="Enter Email Here....">
+									</div>
+									<div class="foot-email-subscribe">
+										<span><i class="fa fa-location-arrow"></i></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+
+    <!-- ====================================================== -->
+    <!--footer start-->
+		<footer id="footer"  class="footer">
+			<div class="container">
+				<div class="hm-footer-copyright text-center">
+					<div class="footer-social wow bounceInLeft">
+						<a href="#"><i class="fa-brands fa-facebook-f"></i></a>	
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+						<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+						<a href="#"><i class="fa-brands fa-behance"></i></a>	
+					</div>
+					<p class="wow bounceInRight">
+						&copy;copyright. designed and developed by <a href="#">Hassan</a>
+					</p>
+				</div>
+			</div>
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div>
+			</div>
+			
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+
+      <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       0,
+      }
+    );
+    wow.init();
+  </script>  
+</body>
+</html>
